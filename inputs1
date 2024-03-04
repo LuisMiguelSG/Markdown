@@ -1,0 +1,54 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM2NosoPSdn6+Lh6B7NI/D6",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/LuisMiguelSG/Markdown/blob/main/inputs1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "JmzyZNk_e7qS"
+      },
+      "outputs": [],
+      "source": [
+        "# Example 01\n",
+        "name= input(\"Ingrese su primer nombre \")                    # Los valores en input se leen como str\n",
+        "name2= input(\"Ingrese su segundo nombre \")\n",
+        "surname1= input(\"Ingrese su primer apellido \")\n",
+        "surname2= input(\"Ingrese su segundo apellido \")\n",
+        "print(f\"Hola, {name} {name2} {surname1} {surname2}\")\n",
+        "\n",
+        "name= int(input(\"Ingrese su primer numero \"))               # Por lo tanto, para tomar valores numericos convertimos str a int/float\n",
+        "name2= int(input(\"Ingrese su segundo numero \"))\n",
+        "c= name + name2\n",
+        "print(c)\n",
+        "\n",
+        "\n",
+        "# Aprender \"Objetos\" / recomendado"
+      ]
+    }
+  ]
+}
